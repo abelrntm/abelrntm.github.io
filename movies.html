@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <title>Abelraintama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/fontawesome-free-5.13.0-web/css/all.css">
+
+  <!-- <link rel="stylesheet" type="text/html" href="fonts/icomoon/style.css"> -->
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <i class="fas fa-times js-menu-toggle"></i>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="site-navbar py-3 js-sticky-header site-navbar-target" role="banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 col-xl-2 col-lg-7 col-md-7">
+            <h1 class="mb-0 pl-2 site-logo"><a href="index.html" class="mb-0">AR</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="index.html" class="nav-link d-none d-xl-block">Home</a></li>
+                <li><a href="#home-section" class="nav-link d-xl-none">Home</a></li>
+                <li><a href="#movie-section" class="nav-link">Movies</a></li>
+                <li><a href="books.html" class="nav-link d-none d-xl-block">Books</a></li>
+                <li><a href="#book-section" class="nav-link d-xl-none">Books</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="tog col-6 col-lg-5 col-md-5 d-inline-block d-xl-none ml-0 py-3"><a href="#"
+              class="site-menu-toggle js-menu-toggle float-right"><i class="fas fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANNER -->
+    <div class="site-blocks-cover overlay" style="background-image: url(images/ca.jpeg);" data-aos="fade"
+      id="home-section">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="banner-text col-md-8 mt-lg-5 text-center">
+            <h1 class="text-uppercase mb-3" data-aos="fade-up">abel raintama</h1>
+            <h2 class="text-uppercase mb-3" data-aos="fade-up">Frontend Developer</h2>
+            <span class="banlink d-xl-none" data-aos="fade-up">
+              <a href="index.html" style="color: rgba(255, 255, 255, 0.7);">Index</a> <i class="fas fa-caret-right"></i>
+              <a href="#home-section" style="color: rgba(255, 255, 255, 0.7);">Movies</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <a href="#movie-section" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>
+
+    <!-- MOVIES -->
+    <section class="site-section" id="movie-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Movies</h2>
+            <p class="lead" data-aos="fade" data-aos-delay="100">I recommend some movies i've watch.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-5" data-aos="fade">
+          <div id="filters" class="filters text-center button-group col-md-7">
+            <button class="btn btn-primary active" data-filter="*">All</button>
+            <button class="btn btn-primary" data-filter=".barat">Hollywood</button>
+            <button class="btn btn-primary" data-filter=".drakor">K-Drama</button>
+            <button class="btn btn-primary" data-filter=".anime">Anime</button>
+            <button class="btn btn-primary" data-filter=".indo">Indonesian</button>
+          </div>
+        </div>
+        <div id="posts" class="row no-gutter">
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : The Last Ship</span></li>
+                  <li><span class="">Tahun : 2014</span></li>
+                  <li><span class="">Jumlah Season/Eps : 5 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain : Eric Dane,Adam Baldwin,Charles Pamell,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_1.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Michael Bay</h3>
+                <span class="position">Channel Road Productions</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Free!</span></li>
+                  <li><span class="">Tahun : 2013</span></li>
+                  <li><span class="">Jumlah Season/Eps : 3 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Nobunaga Shimazaki,Mamoru Miyano,dll</span>
+                  </li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_7.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Kōji Ōji</h3>
+                <span class="position">Kyoto Animation</span>
+              </div>
+            </div>
+          </div>
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Jurassic World</span></li>
+                  <li><span class="">Tahun : 2015</span></li>
+                  <li><span class="">Jumlah Season/Eps : -</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Bryce Dallas,Chris Pratt,Nick Robinson,dll</span>
+                  </li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                <img src="images/movies/movie_2.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Colin Trevorrow</h3>
+                <span class="position">Legendary Pictures</span>
+              </div>
+            </div>
+          </div>
+          <div class="item drakor col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Rich Man</span></li>
+                  <li><span class="">Tahun : 2018</span></li>
+                  <li><span class="">Jumlah Season/Eps : 16 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Suho,Han Yeon-Soo,Kim Ye-Won,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                <img src="images/movies/movie_3.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Hwang Hyuk</h3>
+                <span class="position">iHQ</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Run With The Wind</span></li>
+                  <li><span class="">Tahun : 2018</span></li>
+                  <li><span class="">Jumlah Season/Eps : 23 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Toshiyuki Toyonaga,Yūto Uemura,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_20.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Kazuya Nomura</h3>
+                <span class="position">Production I.G</span>
+              </div>
+            </div>
+          </div>
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Mr.Robot</span></li>
+                  <li><span class="">Tahun : 2015</span></li>
+                  <li><span class="">Jumlah Season/Eps : 4 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Ramli Malek dan Christian Slater</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                <img src="images/movies/movie_4.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Sam Esmail</h3>
+                <span class="position">Universal Productions</span>
+              </div>
+            </div>
+          </div>
+          <div class="item indo col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Posesif</span></li>
+                  <li><span class="">Tahun : 2017</span></li>
+                  <li><span class="">Jumlah Season/Eps : -</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Adipati Dolken,Putri Marino,Gritte
+                      Agatha,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                <img src="images/movies/movie_16.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Edwin</h3>
+                <span class="position">Palari Films</span>
+              </div>
+            </div>
+          </div>
+          <div class="item drakor col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : At Eighteen</span></li>
+                  <li><span class="">Tahun : 2015</span></li>
+                  <li><span class="">Jumlah Season/Eps : 16 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Ong Seong-Wu,Kim Hyang-Gi</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_5.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Oh Hwan-min</h3>
+                <span class="position">Drama House</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Haikyu!!</span></li>
+                  <li><span class="">Tahun : 2014</span></li>
+                  <li><span class="">Jumlah Season/Eps : 4 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Ayumu Morase,Kaito I,Koki U,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_6.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Susumu Mitsunaka</h3>
+                <span class="position">Production I.G</span>
+              </div>
+            </div>
+          </div>
+          <div class="item indo col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Habibie & Ainun 3</span></li>
+                  <li><span class="">Tahun : 2019</span></li>
+                  <li><span class="">Jumlah Season/Eps : -</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Reza Rahadian,Maudy Ayunda,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_15.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Hanung Bramantyo</h3>
+                <span class="position">MD Pictures</span>
+              </div>
+            </div>
+          </div>
+          <div class="item drakor col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Beautiful World</span></li>
+                  <li><span class="">Tahun : 2019</span></li>
+                  <li><span class="">Jumlah Season/Eps : 16 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Park Sun-Ho,Park Su-Ho,Hyun</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_23.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Park Chan-hong</h3>
+                <span class="position">MI Inc</span>
+              </div>
+            </div>
+          </div>
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Teen Wolf</span></li>
+                  <li><span class="">Tahun : 2011</span></li>
+                  <li><span class="">Jumlah Season/Eps : 6 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Tyler Posey,Dylan O'brien,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_9.png" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Jeff Davis</h3>
+                <span class="position">Adelstein Productions</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Baby Steps</span></li>
+                  <li><span class="">Tahun : 2014</span></li>
+                  <li><span class="">Jumlah Season/Eps : 2 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Taishi Murata,Minako K,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_18.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Masahiko Murata</h3>
+                <span class="position">Pierrot</span>
+              </div>
+            </div>
+          </div>
+          <div class="item drakor col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Ganggnam Beauty</span></li>
+                  <li><span class="">Tahun : 2019</span></li>
+                  <li><span class="">Jumlah Season/Eps : 16 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Cha Eun-Woo,Im Soo-Hyang,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                <img src="images/movies/movie_10.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Hwang In-roe</h3>
+                <span class="position">Art & Culture</span>
+              </div>
+            </div>
+          </div>
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : The Maze Runner</span></li>
+                  <li><span class="">Tahun : 2014</span></li>
+                  <li><span class="">Jumlah Season/Eps : - </span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Dylan O'brien,Thomas Brodie,Ki Hong Lee,dll</span>
+                  </li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_11.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Wes Ball</h3>
+                <span class="position">Temple Hill Entertainment</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Food Wars</span></li>
+                  <li><span class="">Tahun : 2014</span></li>
+                  <li><span class="">Jumlah Season/Eps : 4 Season</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Yoshitsugu M,Risa Taneda,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_8.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Yoshitomo Yonetani</h3>
+                <span class="position">J.C.Staff</span>
+              </div>
+            </div>
+          </div>
+          <div class="item drakor col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Grand Prince</span></li>
+                  <li><span class="">Tahun : 2018</span></li>
+                  <li><span class="">Jumlah Season/Eps : 20 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Yoon Shi-yoon,Jin Se-yeon,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_22.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Lee Myung-sook</h3>
+                <span class="position">Yein E&M</span>
+              </div>
+            </div>
+          </div>
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : After</span></li>
+                  <li><span class="">Tahun : 2019</span></li>
+                  <li><span class="">Jumlah Season/Eps : - </span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Josephine Langford,Hero Fiennes-Tiffin,dll</span>
+                  </li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_12.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Jenny Gage</h3>
+                <span class="position">Voltage Pictures</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Kimi No Nawa</span></li>
+                  <li><span class="">Tahun : 2016</span></li>
+                  <li><span class="">Jumlah Season/Eps : -</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Ryunosuke Kamiki,Mone Kamishiraishi,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_19.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Makoto Shinkai</h3>
+                <span class="position">CoMix Wave Films</span>
+              </div>
+            </div>
+          </div>
+          <div class="item indo col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Pengabdi Setan</span></li>
+                  <li><span class="">Tahun : 2017</span></li>
+                  <li><span class="">Jumlah Season/Eps : -</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Tara Basro,Dimas Aditya,Endy Arfian,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_24.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Joko Anwar</h3>
+                <span class="position">Rapi Films</span>
+              </div>
+            </div>
+          </div>
+          <div class="item anime col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Ao Haru Ride</span></li>
+                  <li><span class="">Tahun : 2014</span></li>
+                  <li><span class="">Jumlah Season/Eps : 12 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Maaya Uchida,Yūki Kaji,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_17.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Ai Yoshimura</h3>
+                <span class="position">Production I.G</span>
+              </div>
+            </div>
+          </div>
+          <div class="item drakor col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Class of Lies</span></li>
+                  <li><span class="">Tahun : 2019/span></li>
+                  <li><span class="">Jumlah Season/Eps : 16 Eps</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Yoon Kyun-sang,Jun,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_21.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Sung Yong-il</h3>
+                <span class="position">JS Pictures</span>
+              </div>
+            </div>
+          </div>
+          <div class="item indo col-md-6 col-lg-3 col-sm-6 col-6 mb-2">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Dua Garis Biru</span></li>
+                  <li><span class="">Tahun : 2019</span></li>
+                  <li><span class="">Jumlah Season/Eps : -</span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Angga Aldi Yunanda,Adhisty Zara,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_14.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>Gina S. Noer</h3>
+                <span class="position">Starvision</span>
+              </div>
+            </div>
+          </div>
+          <div class="item barat col-md-6 col-lg-3 col-sm-6 col-6">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><span class="">Judul : Game of Thrones</span></li>
+                  <li><span class="">Tahun : 2011</span></li>
+                  <li><span class="">Jumlah Season/Eps : 8 Season </span></li>
+                  <li><span class="d-md-block d-none">Pemain/Tokoh : Kit Harington,Emilia Clarke,dll</span></li>
+                  <li><a href="#"><span class="">More</span></a></li>
+                </ul>
+                </ul>
+                <img src="images/movies/movie_13.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 text-center">
+                <h3>David Benioff</h3>
+                <span class="position">Television 360</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Button books -->
+    <div class="site-section" id="book-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-10 col-12 mx-auto d-inline-block d-xl-none genlink" data-aos="fade-up"
+            data-aos-delay="100">
+            <p><a href="books.html" class="smoothscroll btn btn-primary gen">Books
+                <i class="fa fa-chevron-right ml-2"></i>
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <section class="site-section foot" id="footer-section">
+      <div class="container">
+        <div class="row pt-4 text-center pl-2">
+          <div class="col-md-12 h-170">
+            <div class="pt-5">
+              <p>
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | by Abel Raintama
+              </p>
+              <div class="foot-link">
+                <a href="https://www.instagram.com/zefanyar_/" style="color: black;">
+                  <i class="fab fa-instagram mr-2"></i>
+                </a>
+                <a href="https://t.me/abelraintama" style="color: black;">
+                  <i class="fab fa-telegram mr-2"></i>
+                </a>
+                <a href="https://twitter.com/Abelraintama_" style="color: black;">
+                  <i class="fab fa-twitter mr-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
